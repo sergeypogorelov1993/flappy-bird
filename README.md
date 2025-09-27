@@ -2,6 +2,10 @@
 
 A TypeScript + Vite implementation of the classic Flappy Bird game using only primitive Canvas shapes for rendering. The rendering pipeline is structured to make it easy to swap in animated sprite sheets in the future.
 
+## Play online
+
+The latest build is automatically deployed to GitHub Pages — play it here: https://sergeypogorelov1993.github.io/flappy-bird/
+
 ## Getting started
 
 ```bash
@@ -25,8 +29,10 @@ Unit tests cover the physics helpers that drive the game loop.
 npm test
 ```
 
-## Build
+## Build & deploy locally
 
 ```bash
 npm run build
 ```
+
+The GitHub Actions workflow (`.github/workflows/deploy.yml`) runs the same production build and publishes the `dist` folder to GitHub Pages.
