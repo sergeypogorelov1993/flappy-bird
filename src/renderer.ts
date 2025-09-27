@@ -41,8 +41,11 @@ const drawGround = (ctx: CanvasRenderingContext2D, offset: number) => {
 
   ctx.fillStyle = '#f2c94c';
   const stripeWidth = 40;
+  const totalWidth = stripeWidth * 2;
+  const normalizedOffset = ((offset % totalWidth) + totalWidth) % totalWidth;
+
   for (let i = -1; i < CANVAS_WIDTH / stripeWidth + 2; i++) {
-    const x = (i * stripeWidth + offset) % (stripeWidth * 2);
+    const x = i * stripeWidth - normalizedOffset;
     ctx.fillRect(x, CANVAS_HEIGHT - GROUND_HEIGHT, stripeWidth, GROUND_HEIGHT);
   }
 };
