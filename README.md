@@ -4,7 +4,7 @@ A TypeScript + Vite implementation of the classic Flappy Bird game using only pr
 
 ## Play online
 
-The latest build is automatically deployed to GitHub Pages — play it here: https://<your-github-username>.github.io/flappy-bird/
+The latest build is automatically deployed to GitHub Pages — play it here: https://sergeypogorelov1993.github.io/flappy-bird/
 
 ## Getting started
 
