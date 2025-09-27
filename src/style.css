@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e6f1ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0a192f;
+}
+
+h1 {
+  letter-spacing: 0.02em;
+}
+
+p {
+  margin: 0;
+}
